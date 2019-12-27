@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '9p+h&o3)0_jw3h-o7v$&9nlo%o=vh$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['green-methodology.herokuapp.com']
+ALLOWED_HOSTS = ['green-methodology.herokuapp.com',"green-method.com","127.0.0.1"]
 
 
 # Application definition
