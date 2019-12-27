@@ -1,0 +1,1 @@
+web: gunicorn green_methodology.wsgi --log-file -
